@@ -1,5 +1,5 @@
 *{
-   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 242, 0.349); */
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 242, 0.349);  */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,6 @@
 .container1{
    
 }
-
 
 .header1{
     margin-bottom: 0;
@@ -19,11 +18,10 @@
     color: #fff;
     margin-bottom: 0;
     font-size: 0.9em;
-    font-weight: bold;
+    
 }
 .header2  a{
     text-decoration: none;
-
     color: yellow;
 }
 .bg{
@@ -43,11 +41,33 @@
 }
 .header3{  
     padding: 0;
-    background: rgb(255, 136, 0);
+    background: rgb(204, 77, 60);
 }
 .header4{
     
 }
 .navbtn{
     padding:20px 15px 20px 15px;
+}
+ul li{
+    border-left: 1px solid rgb(255, 187, 0);
+}
+ul li:last-child{
+    border-right: 1px solid rgb(255, 166, 0);
+}
+ul li:hover{
+    background-color:rgb(204, 58, 39);;
+}
+
+.containertextbanner{
+    position: absolute;
+    color: white;
+    top: 300px;
+    right: 300px;
+}
+.textbanner h2{
+    color: white;
+}
+.carroselbtn{
+   color: red;
 }
