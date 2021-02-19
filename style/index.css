@@ -1,5 +1,5 @@
 *{ 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 0, 0.349); */
+    /* box-shadow: inset 0px 0px 0px 1px rgba(255, 0, 0, 0.349); */   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +12,7 @@ body{
    line-height: normal;
    scroll-behavior: smooth;
 }
-.container1{
-   
-}
+
 
 .header1{
     margin-bottom: 0;
@@ -117,8 +115,9 @@ ul li:hover{
 
 }
 /* CARDS */
+
 .card{
-    position:relative;
+    position:absolute;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -127,6 +126,7 @@ ul li:hover{
     width: 300px;
     height: 200px;
     top: -90px;
+    
     z-index: 2;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.356);
     
@@ -146,4 +146,20 @@ ul li:hover{
 }
 .texto span{
     font-weight: 100;
+}
+
+/* SOBRE */
+.wrapper{
+   
+    padding: 5px;
+}
+.wrapper span{
+    font-size: 1.8em;
+    font-weight: 500;
+    color:rgb(233, 80, 53);
+    margin: 2px 5% 20px 5%;    
+}
+.wrapper p{
+    font-size: 0.8em;
+    color: grey;
 }
