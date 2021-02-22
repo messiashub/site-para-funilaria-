@@ -75,6 +75,9 @@ ul li:hover{
     min-height: 400px;
 } 
  */
+.dark{
+    filter: brightness(0.8);
+}
 .containertextbanner{
     position: absolute;
     display: flex;
@@ -181,13 +184,13 @@ section .card{
     margin: 10px;
     background-color: rgb(204, 77, 60);
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.356);
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #fff; 
     overflow: hidden;
 
 }
 
-.cardText p{
+.cardText h3{
     font-weight: 500;
 
 }
@@ -274,7 +277,7 @@ section .card{
         flex-direction: column;
         position: initial;  
         /* margin-left: 5px; */
-        margin-right: 10px;
+        /* margin-right: 10px; */
        
       
     } 
@@ -290,6 +293,11 @@ section .card{
     }  
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
+    .dimension img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
     .card{
         display: flex;
         
@@ -297,14 +305,15 @@ section .card{
         position: relative;
         margin-top: 0;
         padding: 0px;
-        height: 350px;
+        height: 390px;
 
     }
     .card1{
         display:flex;
         flex-direction: column;
-        position: relative; 
-        /* width:100vw; */
+        position: absolute; 
+        top: 0px;
+        width:100vw; 
         /* height:100px ; */ 
        
         margin: 0px; 
@@ -352,7 +361,7 @@ section .card{
         } 
     }    */
  
-    .card{
+    /* .card{
         display: flex ;
        
         display: flex;
@@ -361,12 +370,32 @@ section .card{
         height:200px ;
         top: 20px;
         margin: 10px;    
-    }
+    } */
 
 }
-/* 
+@media screen and (min-width:769px) and (max-width:1200px){
+    .dimension img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .card{
+        top: 80px;
+        height: 215px;
+    }
+    .cardText{
+        font-size: 1.1em;
+    }
+   
+}
+
 @media screen and (min-width:769px) and (max-width:1199px){
-    .containertextbanner{
+    .dimension img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    /* .containertextbanner{
         top:15%
     }
     .card{
@@ -381,10 +410,10 @@ section .card{
     }
     .line{
         margin-bottom: 25px;
-    }
+    } */
 
 }
-*/
+/*
 
 /* SOBRE */
 
@@ -401,4 +430,5 @@ section .card{
 .wrapper p{
     font-size: 0.8em;
     color: grey;
-}  */
+ 
+}   */  
