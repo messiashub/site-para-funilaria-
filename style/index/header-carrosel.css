@@ -1,5 +1,5 @@
 *{ 
-   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);    */
+   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,7 @@ body{
    font-family: ubuntu; 
    line-height: normal;
    scroll-behavior: smooth;
+   /* background-color: rgba(215, 224, 224, 0.575); */
 }
 
 
@@ -46,7 +47,7 @@ body{
 }
 .header3{  
     padding: 0;
-    background: rgb(204, 77, 60);
+    background-image: linear-gradient(to right, #cc2011 0%, #f94323fb 100%);
 }
 
 .navbtn{
@@ -98,6 +99,7 @@ ul li:hover{
     margin-bottom: 0px;
     color: white;
     display: flex;
+    flex-wrap: wrap;
 }
 .containerbtn{
     margin-top: 20px;
@@ -181,17 +183,20 @@ section .card{
     width: 300px;
     height: 200px;
     padding: 10px;
-    margin: 10px;
-    background-color: rgb(204, 77, 60);
+    margin: 10px 0px 10px 0px;
+    background-image: linear-gradient(to right, #cc2011 0%, #ec2e1d 100%);
+    
+   /*  background-color: rgb(204, 77, 60); */
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.356);
     font-size: 1.7em;
-    color: #fff; 
+    color: rgb(242, 243, 235); 
     overflow: hidden;
 
 }
 
 .cardText h3{
     font-weight: 500;
+    color: yellow;
 
 }
 
@@ -291,6 +296,13 @@ section .card{
         overflow: visible;
  
     }  
+     /* SOBRE */
+
+     .wrapper{
+        justify-content: center;
+        margin-bottom: 25px;
+       
+    }
 }
 @media screen and (min-width: 481px) and (max-width: 768px){
     .dimension img{
@@ -341,6 +353,12 @@ section .card{
         margin-bottom: 50px;
 
     }
+    /* SOBRE */
+    .wrapper{
+        justify-content: center;
+        margin-bottom: 25px;
+       
+    }
     /* .containertextbanner{
         position: absolute;
         display: flex;
@@ -373,6 +391,7 @@ section .card{
     } */
 
 }
+
 @media screen and (min-width:769px) and (max-width:1200px){
     .dimension img{
         width: 100%;
@@ -385,15 +404,40 @@ section .card{
     }
     .cardText{
         font-size: 1.1em;
+        margin: 10px 10px 10px 0px;
     }
+    .cardText:nth-child(3){
+        margin-right: 0;
+    }
+    /* SOBRE */
+
+    .wrapper{
+        justify-content: center;
+       
+    }
+    /* SOBRE */
+    /* .wrapper{
+        justify-content: center;
+        margin-bottom: 25px;
+       
+    } */
    
 }
 
-@media screen and (min-width:769px) and (max-width:1199px){
-    .dimension img{
+ @media screen and (min-width:769px) and (max-width:1199px){
+   /*  .dimension img{
         width: 100%;
         height: 300px;
         object-fit: cover;
+    }
+    .cardText{
+        margin-left: 0;
+    }
+    .cardText:nth-child(3){
+        margin-right: 0;
+    } */
+    /* SOBRE */
+    
     }
     /* .containertextbanner{
         top:15%
@@ -410,10 +454,10 @@ section .card{
     }
     .line{
         margin-bottom: 25px;
-    } */
+    } 
 
 }
-/*
+
 
 /* SOBRE */
 
@@ -431,4 +475,4 @@ section .card{
     font-size: 0.8em;
     color: grey;
  
-}   */  
+}   */   

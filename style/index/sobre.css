@@ -1,0 +1,17 @@
+.wrapper{
+    margin-bottom: 30px;
+}
+.sobre h5{
+    margin-bottom: 30px;
+}
+
+.sobre h5 span{
+    color: rgb(229, 255, 0);
+    
+}
+.sobre p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #888888;
+}
