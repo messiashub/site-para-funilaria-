@@ -1,5 +1,5 @@
 *{ 
-   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +7,7 @@
 }
 :root{
     --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
+    --corSecundaria:#e2e24d;
 }
 /* *:focus {
     outline: 0 !important;
@@ -52,7 +53,7 @@ a:link{
 }
 .header2  a{
     text-decoration: none;
-    color: yellow;
+    color: var(--corSecundaria);
 }
 .bg{
     
@@ -109,16 +110,24 @@ ul li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: 100%;
     height: 200px;
     font-weight:100;
     font-size: 3em;
     color: white;
     top: 30%;
-    left: 20%;
-    animation-name: anima1;
-    animation-duration: 3.5s;
+    left: -220px;
+    animation-name: anima1;  
+    animation-duration: 3.5s; 
 }
+#text{
+    animation-name: anima2;
+    animation-duration: 2.5s;
+}
+
+
+
+
 .containertextbanner p{
     margin-bottom: 0px;
     color: white;
@@ -145,19 +154,29 @@ ul li:hover{
     background-image: var(--corPrincipal);
 }
 
-
-
-
-
 @keyframes anima1{
     from{
         opacity: 0;
         left:100%
     }
-    to{left:20%}
-    
-
+    to{left:-220px}
 }
+@keyframes anima2{
+    from{
+        opacity: 0;
+        top: -25%;
+    }
+    to{top:30%}
+}
+@keyframes anima3{
+    from{
+        opacity: 0;
+        top:-100%
+    }
+    to{center:0%}
+}
+
+
 /* CARDS */
 
 
@@ -242,7 +261,7 @@ section .card{
 .cardText h3{
     font-weight: 500;
     /* color: yellow; */
-    color:#e2e24d;
+    color: var(--corSecundaria);
 
 }
 
@@ -254,12 +273,13 @@ section .card{
 }
 .container .btn2{
     
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     width: 150px;
     margin-top: 20px;
-    left: 25%;
-    top: 200px;
-   /*  top: 130px; */
+    /* left: 25%; */
+   /*  top: 200px; */
+    top: 80px; 
     padding: 7px 10px 7px 10px;
     font-size: 0.5em;
     letter-spacing: 1.5px;
@@ -267,8 +287,8 @@ section .card{
    
 }
 .cardText:hover .btn2{
-   top: 130px;
-   border: ;
+   top: 10px;
+  /*  border: ; */
 }
 
 .cardText .btn{
@@ -336,156 +356,13 @@ section .card{
 .texto span{
     font-weight: 100;
 }*/
-@media screen and (max-width: 480px){
-    .logo{
-        margin-left: 10px;
-    }
-    .navbtn{
-        padding:15px 15px 15px 15px;
-    }
-    ul li{
-        border-left: none;
-        border-bottom: 1px solid rgb(255, 187, 0);
-    }
-
-    .containertextbanner{
-        width: 280px;
-        height: 100px;
-        font-size: 1.5em;
-        right: 100%;
-        /* position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 480px;
-        height: 200px;
-        font-weight:100;
-        font-size: 3em;
-        color: white;
-        top: 30%;
-        left: 20%;
-        animation-name: anima1;
-        animation-duration: 3.5s; */
-    }
-
-    .dimension img{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-    .card{
-       /*  display: flex; */
-        
-       /*  flex-direction: row; */
-        
-        /* margin-top: 0;
-        padding: 0px;
-        height: 390px;
-  */
-    }
-    .card1{
-       /*  display:flex;
-        flex-direction: column;
-        position: initial;   */
-        /* margin-left: 5px; */
-        /* margin-right: 10px; */
-       
-      
-    }
-    
-    .cardText{
-        /* display: flex;
-        flex-direction: column;
-        width: 100vw;
-       
-        height: 130px;
-        padding: 0;
-        margin: 10px;
-        margin-bottom: 10px;
-        justify-content: center;
-        
-        
-        
-        overflow: visible; */
- 
-    } 
-    .cardText .btn{
-        /* display: flex; 
-        position: relative; 
-        max-width: 180px;
-        left: 20vw;
-        height: 50px;
-        justify-content: center; */
-    } 
-    .cardText .btn button{
-      /*   position: relative; */
-        
-        /* max-width: 150px; */
-        /* left: 13vw; */
-      /*   right:25vw;   */
-       /*  bottom: -50px; */
-       /*  margin-top: 10px; */
-        /* border: 2px solid  rgba(255, 255, 253, 0); */
-        /* border-radius: 5px; */
-        /* background-color:  rgba(255,255, 255, 0); */
-       /*  padding: 5px 10px 5px 10px; */
-       
-    }
-    .cardText h3{
-       /*  font-size: 1.1rem;
-        font-weight: 400; */
-        
-    }
-    .cardText span{
-        /* font-size: 1.1rem; */
-    }
-    
-       
-        /* position: relative; */
-        
-        /* text-align: center; */
-    
-    
-    /* .cardText:hover h3{
-        display: none;
-        transition: ease;
-    
-    } */
-    /* .cardText:hover span{
-        display: none;
-    } */
-    
-    /* .cardText span:hover{
-        display: none;
-    } */
-    
-    
-    /* .cardText:hover .btn button{ */
-        /* display: flex; */
-        /* position: fixed; */
-       
-      
-        
-      /*  bottom:-25px; */
-       
-    }
-     
-    
-     /* SOBRE */
-
-     .wrapper{
-        justify-content: center;
-        margin-bottom: 25px;
-       
-    }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
-    .dimension img{
+   /*  .dimension img{
         width: 100%;
         height: 300px;
         object-fit: cover;
-    }
+    } */
     .card{
         /* display: flex;
         
@@ -519,7 +396,7 @@ section .card{
         margin-bottom: 10px;
         overflow: visible;
  */
-    }
+    /* }
     .container{        
         max-width: 768px;
         margin: 0;
@@ -528,7 +405,7 @@ section .card{
     .line{
         margin-bottom: 50px;
 
-    }
+    } */
     /* SOBRE */
     .wrapper{
         justify-content: center;
