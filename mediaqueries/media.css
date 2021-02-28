@@ -51,7 +51,7 @@
         flex-direction: column; 
         top: 10px;
         width:100%; 
-        margin: 15px 5px 15px 5px;
+        margin: 15px 5px 15px 0px;
         justify-content: center;
        
     } 
@@ -62,68 +62,7 @@
     .cardText span{
         font-size: 1.50rem;
     }
-    .cardText .btn{
-        /* display: flex; 
-        position: relative; 
-        max-width: 180px;
-        left: 20vw;
-        height: 50px;
-        justify-content: center; */
-    } 
-    .cardText .btn button{
-      /*   position: relative; */
-        
-        /* max-width: 150px; */
-        /* left: 13vw; */
-      /*   right:25vw;   */
-       /*  bottom: -50px; */
-       /*  margin-top: 10px; */
-        /* border: 2px solid  rgba(255, 255, 253, 0); */
-        /* border-radius: 5px; */
-        /* background-color:  rgba(255,255, 255, 0); */
-       /*  padding: 5px 10px 5px 10px; */
-       
-    }
-    .cardText h3{
-       /*  font-size: 1.1rem;
-        font-weight: 400; */
-        
-    }
-    .cardText span{
-        /* font-size: 1.1rem; */
-    }
-    
-       
-        /* position: relative; */
-        
-        /* text-align: center; */
-    
-    
-    /* .cardText:hover h3{
-        display: none;
-        transition: ease;
-    
-    } */
-    /* .cardText:hover span{
-        display: none;
-    } */
-    
-    /* .cardText span:hover{
-        display: none;
-    } */
-    
-    
-    /* .cardText:hover .btn button{ */
-        /* display: flex; */
-        /* position: fixed; */
-       
-      
-        
-      /*  bottom:-25px; */
-       
-    }
-     
-    
+
      /* SOBRE */
 
      .wrapper{
@@ -131,8 +70,14 @@
         margin-bottom: 25px; */
        
     }
+    .sobre p{
+        text-align: justify;
+
+    }
+}
 
 @media screen and (min-width: 481px) and (max-width: 768px){
+    /* HEADER */
     .logo{
         margin-left: 20px;
     }
@@ -144,6 +89,7 @@
        /*  border-right: none; */
         border-bottom: 1px solid #e2e24d;
     }
+    /* BANNER */
     .containertextbanner {
             position: absolute;
             display: flex;
@@ -160,6 +106,7 @@
             animation-name:anima2;
             animation-duration: 3.5s;
         }
+        /* CARDS */
         .dimension img{
             width: 100%;
             height: 300px;
@@ -176,6 +123,7 @@
         .card1{
            display:block;
            width:100vw;
+           height: 235px;
             /* flex-direction: column; */
            /*  position: absolute; */ 
            /*  top: 0px; */
@@ -209,16 +157,10 @@
         .cardText span{
             font-size: 1.50rem;
         }
-        /* 
-        .container{        
-            max-width: 768px;
-            margin: 0;
-            padding: 0;
+        /* SOBRE */
+        .sobre p{
+            text-align: justify;
         }
-        .line{
-            margin-bottom: 50px;
-    
-        }  */
     }
 
     @media screen and (min-width:769px) and (max-width:1200px){
@@ -250,7 +192,7 @@
         }
         .card1{
             display: flex;
-            height: 300px;
+            height: 235px;
             justify-content: space-between;
         }
         .cardText{

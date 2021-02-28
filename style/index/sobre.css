@@ -1,17 +1,27 @@
+
+
+
+.sobre{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .wrapper{
     margin-bottom: 30px;
+    padding: 10px;
 }
 .sobre h5{
+    font-size: 1.7em;
     margin-bottom: 30px;
 }
 
 .sobre h5 span{
-    color: rgb(229, 255, 0);
+    color: var(--corSecundaria);
     
 }
 .sobre p{
     font-size: 13px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 20px;
     color: #888888;
 }
