@@ -18,6 +18,7 @@ body{
    font-family: ubuntu; 
    line-height: normal;
    scroll-behavior: smooth;
+   overflow-x: hidden;
    /* background-color: rgba(215, 224, 224, 0.575); */
 }
 button{ 
