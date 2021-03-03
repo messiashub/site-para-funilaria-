@@ -1,9 +1,10 @@
 *{ 
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349) ;   
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349) ; */   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
     /* text-decoration: none; */
+    
 }
 :root{
     --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
@@ -13,7 +14,9 @@
     outline: 0 !important;
 }  */ 
     
-
+html{
+    overflow-x: hidden;
+}
 body{
    font-family: ubuntu; 
    line-height: normal;
