@@ -39,12 +39,7 @@
     transform: scale(1.20);
     filter: brightness(0.3);
 }
-.Parallax{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; */
-}
+
 .wrapper2 {
     position: relative;
     display: flex;
