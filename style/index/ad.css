@@ -11,10 +11,22 @@
     color:  rgb(172, 90, 69);
 }
 .container-fluid .card2{
-    display: flex;
+   /*  display: flex; */
     padding: 0px;
     margin: 0px;
+    width: 315px;
+    /* height: 300px;  */
+    margin-left: 5px;
     object-fit: cover;
     overflow: hidden;
-
+}
+.small{
+   /*  height: 70%;  */
+    cursor: pointer;
+    
+    transition: 0.4s;
+}
+.small:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
