@@ -1,0 +1,20 @@
+/* ANTES E DEPOIS */
+
+.ad{
+    margin-top: 50px;
+    
+   /*  background-image: var(--corPrincipal); */
+}
+.ad h5{
+    padding: 10px;
+    font-size: 2em;
+    color:  rgb(172, 90, 69);
+}
+.container-fluid .card2{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    object-fit: cover;
+    overflow: hidden;
+
+}

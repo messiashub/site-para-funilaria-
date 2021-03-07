@@ -1,5 +1,5 @@
 *{ 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -243,7 +243,7 @@ ul li:hover{
    
 }
 .cardText:hover .btn2{
-   top: 10px;
+   top: 15px;
   
 }
 
