@@ -2,26 +2,55 @@
 
 .ad{
     margin-top: 50px;
-    
-   /*  background-image: var(--corPrincipal); */
+    margin-bottom: 50px;
+   /*  background-image: var(--corPrincipal);  */
 }
 .ad h5{
     padding: 10px;
     font-size: 2em;
     color:  rgb(172, 90, 69);
 }
-.container-fluid .card2{
-   /*  display: flex; */
+.flexivel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.borda0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* ANIMAÇÃO */
+[data-anima]{
+    opacity: 0;
+    transition: 1s;
+}
+[data-anima="esquerda"]{
+    transform: translate3d(-80px,0px,0px);/* x,y,z */
+}
+[data-anima="direita"]{
+    transform: translate3d(80px,0px,0px);/* x,y,z */
+}
+[data-anima="centro"]{
+    transform: translate3d(0px,80px,0px);/* x,y,z */
+}
+[data-anima].animacao{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+/* .container-fluid .card2{
+   /*  display: flex; 
     padding: 0px;
     margin: 0px;
     width: 315px;
-    /* height: 300px;  */
+    /* height: 300px;  
     margin-left: 5px;
     object-fit: cover;
     overflow: hidden;
 }
 .small{
-   /*  height: 70%;  */
+   /*  height: 70%;  
     cursor: pointer;
     
     transition: 0.4s;
@@ -29,4 +58,4 @@
 .small:hover{
     filter: grayscale(100%);
     transform: scale(1.1);
-}
+}  */

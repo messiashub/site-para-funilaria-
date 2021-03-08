@@ -15,3 +15,24 @@ function ficarNoTop(){
         nav.classList.remove("fixed-top")
     }
 }
+
+/* ANIMA SCROLL */
+const elementos = document.querySelectorAll('[data-anima]');
+console.log(elementos)
+const animacaoClass = "animacao";
+
+function animaScroll(){
+    const topoPagina = window.pageYOffset+((window.innerHeight * 3)/4);
+    elementos.forEach(function(elemento){
+        if(topoPagina > elemento.offsetTop){
+            elemento.classList.add(animacaoClass);
+        }else{
+            elemento.classList.remove(animacaoClass)
+        }
+    });
+}
+if(elementos.length){
+    window.addEventListener('scroll',function(){
+        animaScroll();
+    })
+}
