@@ -31,8 +31,11 @@ function animaScroll(){
         }
     });
 }
-if(elementos.length){
+/* if(elementos.length){
     window.addEventListener('scroll',function(){
         animaScroll();
     })
-}
+} */
+window.addEventListener('scroll',function(){
+    animaScroll();
+})
