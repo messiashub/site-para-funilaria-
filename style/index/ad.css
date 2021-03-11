@@ -5,49 +5,34 @@
     margin-bottom: 50px;
    /*  background-image: var(--corPrincipal);  */
 }
+ 
 .ad h5{
     padding: 10px;
     font-size: 2em;
     color:  rgb(172, 90, 69);
 }
-.flexivel{
-    display: flex;
-    justify-content: space-around;
-}
-
-.borda0{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-/* SERVIÇOS REALIZADOS */
-.containerSR{
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-}
-.mini{
-    width: 49%;
-    padding: 10px;
-    cursor: pointer;
-}
-/* MODAL */
-.janelaModal{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+.card_img{
+    width: 300px;
+    height: 200px;
     overflow: hidden;
-    padding-top: 100px;
-    z-index: 999999;
-    background-color: rgba(0, 0, 0, 0.8);
-
+    margin: 25px;
 }
 
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.small_img:hover{ 
+   transform: scale(1.5);
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* SERVIÇOS REALIZADOS */
 
 
 
@@ -80,23 +65,3 @@
     transform: translate3d(0,0,0);
 }
 
-/* .container-fluid .card2{
-   /*  display: flex; 
-    padding: 0px;
-    margin: 0px;
-    width: 315px;
-    /* height: 300px;  
-    margin-left: 5px;
-    object-fit: cover;
-    overflow: hidden;
-}
-.small{
-   /*  height: 70%;  
-    cursor: pointer;
-    
-    transition: 0.4s;
-}
-.small:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
-}  */

@@ -1,5 +1,5 @@
 *{ 
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
+   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -413,15 +413,16 @@ ul li:hover{
 /* .wrapper{
    
     padding: 5px;
-}
+}*/
+/* 
 .wrapper span{
     font-size: 1.8em;
     font-weight: 500;
     color:rgb(233, 80, 53);
     margin: 2px 5% 20px 5%;    
 }
-.wrapper p{
+.wrapper p{/*
     font-size: 0.8em;
-    color: grey;
+    color: grey;*/
  
-}   */   
+}     
