@@ -42,8 +42,31 @@ window.addEventListener('scroll', function () {
 
 
 /* MODAL */
+let imagens= document.querySelectorAll('.small_img');
+let modal = document.querySelector('.modal1');
+let modalImage = document.querySelector('#modal_img');
+let btnClose = document.querySelector('#bt_close');
+let srcValor = "";
 
-function cliqueModal(img) {
+
+for(let i = 0 ; i < imagens.length; i++){
+    imagens[i].addEventListener("click", function(){
+
+        srcValor = imagens[i].getAttribute('src');
+        modalImage.setAttribute('src',srcValor);
+       
+        modal.classList.toggle('modal_ativo');
+
+    });
+}
+
+btnClose.addEventListener('click',function(){
+    modal.classList.toggle('modal_ativo');
+});/* */
+
+ /**/
+
+/* function cliqueModal(img) { */
    /*  const janelaModal = document.getElementById('janelaModal');
     const imgModal = document.getElementById('imgModal');
     const txtModal = document.getElementById('txtModal');
@@ -51,6 +74,7 @@ function cliqueModal(img) {
 
     /*  janelaModal.classList.remove('escondeJanelaModal');
      janelaModal.classList.add('mostrarJanelaModal'); */
+    /*
 }
 
 /* const janelaModal = document.getElementById('janelaModal'); */
@@ -58,20 +82,20 @@ function cliqueModal(img) {
 
 
 
-
-const janelaModal = document.getElementById('janelaModal');
+/* ////////////////////////// */
+/* const janelaModal = document.getElementById('janelaModal');
 const mini = document.querySelectorAll('.mini');
 let imgModal = document.getElementById('imgModal');
 const btnFechar = document.getElementById('fechar');
 const txtModal = document.getElementById('txtModal')
 let srcImg=""
-console.log(mini);
+console.log(mini); */
 /* janelaModal.classList.remove('escondeJanelaModal');
 janelaModal.classList.add('mostrarJanelaModal');
 */
 
 
-for (let i = 0; i < mini.length; i++) {
+/* for (let i = 0; i < mini.length; i++) {
     mini[i].addEventListener('click', function () {
         console.log('oi');
         srcImg = mini[i].getAttribute('src');
@@ -79,24 +103,24 @@ for (let i = 0; i < mini.length; i++) {
         txtModal.innerHTML=mini[i].alt;
         
         janelaModal.classList.remove('escondeJanelaModal'); 
-       /*  janelaModal.classList.add('mostrarJanelaModal'); */
+        janelaModal.classList.add('mostrarJanelaModal'); 
         
         janelaModal.classList.toggle('janela_Ativa');
-        /* imgModal.src.setAttribute('img'); */
-        /* imgModal.src= img.src; */
+        imgModal.src.setAttribute('img'); 
+        imgModal.src= img.src; 
 
     });
 }
 
-
+ */
 /* imgModal.addEventListener('click',function(){
    
 }) */
 
-btnFechar.addEventListener('click', function () {
+/* btnFechar.addEventListener('click', function () {
 
     janelaModal.classList.add('escondeJanelaModal');
-})
+}) */
 
 /* console.log(mini);  */
 

@@ -21,15 +21,86 @@
 .small_img{
     height: 100%;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.7s;
+   
 }
 .small_img:hover{ 
+  
    transform: scale(1.5);
+   
 }
 .row{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+/* MODAL */
+.modal1{
+    
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    padding-top: 100px;  
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.774);
+    visibility: hidden; 
+   
+   /*  opacity: 0; */
+    /* transition: visibility 0.8s linear, opacity 0.5s linear
+ */
+}
+ .modal_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#modal_img{
+    width: 65vw;
+    transform: scale(0);
+    transition: all linear 0.4s;
+
+
+}
+
+#bt_close{
+    color: rgb(250, 68, 44);
+    /* background-color: rgba(0, 0, 0, 0.144); */
+    position: fixed;
+    top: 13%;
+    right: 13vw;
+    padding: 5px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    z-index: 99999;
+   /*  border: 1px solid #fff; */
+    transition: all ease-out 0.2s;
+   
+}
+
+#bt_close:hover{
+   /*  background-color: rgba(255, 0, 0, 0.383); */
+    cursor: pointer;
+    color: rgb(168, 34, 16);
+    transform: scale(1.2);
+}
+
+.modal_ativo{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal_ativo #modal_img{
+    transform: scale(1);
+}
+/*
+
+ */
 
 
 /* SERVIÇOS REALIZADOS */

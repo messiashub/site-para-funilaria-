@@ -18,7 +18,7 @@ html{
     overflow-x: hidden;
 }
 body{
-   font-family: ubuntu; 
+   font-family: ubuntu,Arial, Helvetica, sans-serif; 
    line-height: normal;
    scroll-behavior: smooth;
    overflow-x: hidden;
