@@ -74,15 +74,17 @@
         top: none;
     }
      /* SOBRE */
-
-     .wrapper{
-       /*  justify-content: center;
-        margin-bottom: 25px; */
+    .wrapper{
+       justify-content: center;
+       /*  j margin-bottom: 25px; */
        
     }
     .sobre p{
         text-align: justify;
-
+    }
+    /* PARALAX */
+    .wrapper2{
+        top: -24vh;
     }
 }
 
@@ -179,6 +181,11 @@
             top: none;
         }
         /* SOBRE */
+        .wrapper{
+            justify-content: center;
+            /*  j margin-bottom: 25px; */
+            
+         }
         .sobre p{
             text-align: justify;
         }
@@ -218,8 +225,7 @@
         }
         .card{
             border: none;
-           /*  top: 80px;
-            height: 215px; */
+           
         }
         .card1{
             display: flex;
@@ -230,11 +236,6 @@
             top: 0;
             margin: 15px 10px 15px 10px;
         }
-        .cardText{
-           /*  font-size: 1.1em;
-            margin: 10px 10px 10px 0px; */
-        }
-        .cardText:nth-child(3){
-           /*  margin-right: 0; */
-        }
+        
+        
     }

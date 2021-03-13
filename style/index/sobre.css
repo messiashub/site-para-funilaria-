@@ -38,7 +38,7 @@
     align-items: center;
     transform: scale(1.20);
     filter: brightness(0.3);
-   /*  overflow-x: hidden; */
+   
 }
 
 .wrapper2 {
@@ -58,8 +58,7 @@
 .wrapper2 h5{
     font-size: 2.3em;
     font-weight: 500;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;    
    /*  max-width: 500px; */
 }
 .wrapper2 h5 span{

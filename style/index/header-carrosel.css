@@ -38,10 +38,7 @@ a:hover{
     color: white;
 }
 a:link{
-    text-decoration: none;
-    
-   
-    
+    text-decoration: none;  
 }
 
 .header1{
@@ -143,18 +140,12 @@ ul li:hover{
 }
 .containerbtn{
     margin-top: 20px;
-   /*  border: 2px solid rgb(204, 77, 60); */
-   /*  border: 2px solid rgb(204, 202, 60); */
-    /* border-radius: 5px; */
-    /* background-color: rgba(255, 255, 255, 0); */
     font-size: 0.4em;
     padding: 10px 25px 10px 25px;
     color: white;
    
 }
 .containerbtn:hover{
-  
-   /*  border: 2px solid rgb(204, 77, 60); */
     background-image: var(--corPrincipal);
 }
 .seta{
@@ -252,177 +243,10 @@ ul li:hover{
 
 
 
-@media screen and (min-width: 481px) and (max-width: 768px){
-   /*  .dimension img{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    } */
-    .card{
-        /* display: flex;
-        
-      
-        position: relative;
-        margin-top: 0;
-        padding: 0px;
-        height: 390px; */
 
-    }
-    .card1{
-       /*  display:flex;
-        flex-direction: column;
-        position: absolute; 
-        top: 0px;
-        width:100vw;  */
-        /* height:100px ; */ 
-       
-       /*  margin: 0px; 
-        
-        margin-bottom: 100px; */
-           
-      
-    } 
-    .cardText{
-        /* display: flex;
-        width: 95%;
-        height: 100px;
-        padding: 0;
-        margin: 10px;
-        margin-bottom: 10px;
-        overflow: visible;
- */
-    /* }
-    .container{        
-        max-width: 768px;
-        margin: 0;
-        padding: 0;
-    }
-    .line{
-        margin-bottom: 50px;
 
-    } */
-    /* SOBRE */
 
-    /* .wrapper{
-        justify-content: center;
-        margin-bottom: 25px;
-       
-    } */
-    /* .containertextbanner{
-        position: absolute;
-        display: flex;
-        top: 10%;
-        left: 23%; 
-        font-size: 2em;
-        justify-content: center;
-        align-items: center;
-        width: 400px;
-        animation-name: anima2;
-    } */
-    /* @keyframes anima2{     
-        from{
-           top:-100%
-        }
-        to{
-            top:10%;
-        } 
-    }    */
+
  
-    /* .card{
-        display: flex ;
-       
-        display: flex;
-        position: relative;
-        width: 460px;
-        height:200px ;
-        top: 20px;
-        margin: 10px;    
-    } */
-
-}
-
-@media screen and (min-width:769px) and (max-width:1200px){
-    .dimension img{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-    .card{
-       /*  top: 80px;
-        height: 215px; */
-    }
-    .cardText{
-       /*  font-size: 1.1em;
-        margin: 10px 10px 10px 0px; */
-    }
-    .cardText:nth-child(3){
-       /*  margin-right: 0; */
-    }
-    /* SOBRE */
-
-    .wrapper{
-        justify-content: center;
-       
-    }
-    /* SOBRE */
-    /* .wrapper{
-        justify-content: center;
-        margin-bottom: 25px;
-       
-    } */
-   
-}
-
- @media screen and (min-width:769px) and (max-width:1199px){
-   /*  .dimension img{
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-    .cardText{
-        margin-left: 0;
-    }
-    .cardText:nth-child(3){
-        margin-right: 0;
-    } */
-    /* SOBRE */
-    
-    }
-    /* .containertextbanner{
-        top:15%
-    }
-    .card{
-        display: flex;
-        position: initial;
-        justify-content: center;
-        max-width: 250px;
-        height: 150px;
-        top: 0px;
-        z-index: 0;
-        margin: 20px 10px 20px 10px;
-    }
-    .line{
-        margin-bottom: 25px;
-    } 
-
-}
 
 
-/* SOBRE */
-
-/* .wrapper{
-   
-    padding: 5px;
-}*/
-/* 
-.wrapper span{
-    font-size: 1.8em;
-    font-weight: 500;
-    color:rgb(233, 80, 53);
-    margin: 2px 5% 20px 5%;    
-}
-.wrapper p{/*
-    font-size: 0.8em;
-    color: grey;*/
- 
-}     
