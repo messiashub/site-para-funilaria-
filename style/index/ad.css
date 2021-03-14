@@ -86,9 +86,32 @@
 }
 
 .seguro{
-    margin-top: 20px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* justify-content: center; */
+   /*  margin-top: 20px; */
     padding: 5px;
     background-image: var(--corPrincipal);
+}
+.seguro h5{
+    font-size: 2em;
+    color: var(--corSecundaria);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.seguro .imgSeguradora{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgSeguradora img{
+    display: flex;
+    min-width: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    
 }
 /*
 
