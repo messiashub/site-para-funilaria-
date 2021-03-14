@@ -1,9 +1,9 @@
 /* ANTES E DEPOIS */
 
 .ad{
-    margin-top: 50px;
-    margin-bottom: 50px;
-   /*  background-image: var(--corPrincipal);  */
+    margin-top: 30px;
+    margin-bottom: 24px;
+   
 }
  
 .ad h5{
@@ -83,6 +83,12 @@
 
 .modal_ativo #modal_img{
     transform: scale(1);
+}
+
+.seguro{
+    margin-top: 20px;
+    padding: 5px;
+    background-image: var(--corPrincipal);
 }
 /*
 
