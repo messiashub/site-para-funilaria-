@@ -7,8 +7,15 @@
 }
 
 .wrapper{
+    display: flex;
     margin-bottom: 30px;
     padding: 10px;
+}
+.logo6 img{
+   
+    width: 400px; 
+    /* width: 350px; */
+    padding-bottom: 10px;
 }
 .sobre h5{
     font-size: 1.7em;

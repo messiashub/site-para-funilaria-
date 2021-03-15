@@ -79,6 +79,9 @@
        /*  j margin-bottom: 25px; */
        
     }
+    .logo6 img{
+        width: 300px;
+    }
     .sobre p{
         text-align: justify;
     }
