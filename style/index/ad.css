@@ -93,7 +93,7 @@ h5{
 .seguro{
     display: flex;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     flex-direction: column;  
     padding: 5px;
     background-image: var(--corPrincipal);
@@ -116,6 +116,33 @@ h5{
     border-radius: 5px;
     margin: 10px;
     
+}
+footer{
+    display: flex;
+    background: #333333;
+    justify-content: space-around;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.footerlogo p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo span{
+    color: var(--corSecundaria);
+}
+.footerlogo2{
+    padding: 25px;
+}
+.footerlogo2 p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo2 span{
+    color: coral;
 }
 /*
 
