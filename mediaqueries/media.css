@@ -83,11 +83,18 @@
         text-align: justify;
     }
     /* PARALAX */
+
     .Parallax1{
         height: 36vh;
     }
     .wrapper2{
         top: -24vh;
+    }
+    .wrapper2 h5{
+        font-size: 1.8em;
+    }
+    .wrapper2 p{
+        font-size: 1.8em;
     }
 }
 
@@ -196,6 +203,9 @@
         .Parallax1{
             height: 36vh;
         }
+        /* .wrapper2{
+            top: ;
+        } */
     }
    
 
