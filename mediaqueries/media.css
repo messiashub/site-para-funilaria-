@@ -4,8 +4,18 @@
 
 @media screen and (max-width: 480px){
     /* HEADER */
-    .logo{
-        margin-left: 10px;
+    .bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg p{
+        margin-bottom: 5px;
+    }
+    .logo img{
+        display: flex;
+        align-self: center;
+        margin-left: 10px; 
     }
     .navbtn{
         padding:15px 15px 15px 15px;
@@ -61,10 +71,10 @@
     } 
     .cardText h3{
         margin-top: 30px;
-        font-size: 1.50rem;
+        font-size: 2em;
     }
     .cardText span{
-        font-size: 1.50rem;
+        font-size: 2em;
     }
     .container .btn2{
         position:relative;
@@ -99,9 +109,11 @@
     .wrapper2 p{
         font-size: 1.8em;
     }
+    main footer{
+        display: block;
+    }
 }
-
-@media screen and (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 766px){
     /* HEADER */
     .logo{
         margin-left: 20px;
@@ -120,39 +132,39 @@
     }
     /* BANNER */
     .containertextbanner {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            font-weight: 100;
-            font-size: 1.7em;
-            color: white;
-            top: 30%;
-            left: 0%;
-            animation-name:anima2;
-            animation-duration: 3.5s;
-        }
-        /* CARDS */
-        .dimension img{
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        font-weight: 100;
+        font-size: 1.7em;
+        color: white;
+        top: 30%;
+        left: 0%;
+        animation-name:anima2;
+        animation-duration: 3.5s;
+    }
+    /* CARDS */
+    .dimension img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
 
-        .card{  
-            padding: 0px;
-            height: 690px;
-            margin-left: 10px; 
-            margin-right: 10px;
+    .card{  
+        padding: 0px;
+        height: 690px;
+        margin-left: 10px; 
+        margin-right: 10px;
     
-        }
-        .card1{
-           display:block;
-           width:100vw;
-           height: 235px;
+    }
+    .card1{
+        display:block;
+        width:100vw;
+        height: 235px;
             /* flex-direction: column; */
            /*  position: absolute; */ 
            /*  top: 0px; */
@@ -161,105 +173,111 @@
            
            /*  margin: 0px; */
             
-            /*margin-bottom: 100px; */
-               
-          
-        } 
-        .cardText{
-            display: flex;
-            flex-direction: column;
-            width: 95%; 
-            top: 10px;
-            margin: 15px 5px 15px 5px;
-            justify-content: center;
+            /*margin-bottom: 100px; */    
+    }
+        
+    .cardText {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+           
+        top: -7px;
+        margin: 15px 5px 15px 5px;
+        justify-content: center;
            /*  height: 100px; */
            /*  padding: 0; */
            /*  margin: 10px; */
            /*  margin-bottom: 10px; */
             /* overflow: visible; */
      
-        }
-        .cardText h3{
-            margin-top: 30px;
-            font-size: 1.50rem;
-        }
-        .cardText span{
-            font-size: 1.50rem;
-        }
-        .container .btn2{
-            position:relative;
-            top: 16px;
-        }
-        .cardText:hover .btn2{
-            top: none;
-        }
-        /* SOBRE */
-        .wrapper{
-            justify-content: center;
+    }
+    .cardText h3{
+        margin-top: 30px;
+        font-size: 2em;
+    }
+    .cardText span{
+        font-size: 2em;
+    }
+    .container .btn2{
+        position:relative;
+        top: 16px;
+    }
+    .cardText:hover .btn2{
+        top: none;
+    }
+    /* SOBRE */
+    .wrapper{
+        justify-content: center;
             /*  j margin-bottom: 25px; */
             
-         }
-        .sobre p{
-            text-align: justify;
         }
-        /* PARALAX */
-        .Parallax1{
-            height: 36vh;
-        }
+    .sobre p{
+        text-align: justify;
+    }
+    /* PARALAX */
+    .Parallax1{
+        height: 36vh;
+    }
+    .wrapper2{
+        display: none;
+    }
         /* .wrapper2{
             top: ;
         } */
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:1200px){
+    ul li{
+        border-left: 0px;
+        border-bottom: 0px solid #e2e24d;
     }
-   
+    ul li:last-child{
+        border-right: 0px;
+        border-bottom: 0px;
 
-    @media screen and (min-width:769px) and (max-width:1200px){
-        ul li{
-            border-left: 0px;
-            border-bottom: 0px solid #e2e24d;
-        }
-        ul li:last-child{
-            border-right: 0px;
-            border-bottom: 0px;
-
-        }
-        .containertextbanner {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 200px;
-            font-weight: 100;
-            font-size: 1.9em;
-            color: white;
-            top: 30%;
-            left: 0%;
-            animation-name:anima2;
-            animation-duration: 3.5s; 
-        }
-        .dimension img{
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
-        .card{
-            border: none;
+    }
+    .containertextbanner {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        font-weight: 100;
+        font-size: 1.9em;
+        color: white;
+        top: 30%;
+        left: 0%;
+        animation-name:anima2;
+        animation-duration: 3.5s; 
+    }
+    .dimension img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .card{
+        border: none;
            
-        }
-        .card1{
-            display: flex;
-            height: 235px;
-            justify-content: space-between;
-        }
-        .cardText{
-            top: 0;
-            margin: 15px 10px 15px 10px;
-        }
-        /* PARALAX */
-        .Parallax1{
-         height: 37vh;
-        }
-        
-        
     }
+    .card1{
+        display: flex;
+        height: 235px;
+        justify-content: space-between;
+    }
+    .cardText{
+        top: 0;
+         margin: 15px 10px 15px 10px;
+    }
+    
+    /* PARALAX */
+    .Parallax1{
+     height: 37vh;
+    }
+        
+        
+}
+

@@ -117,10 +117,12 @@ h5{
     margin: 10px;
     
 }
+/* FOOTER */
 footer{
     display: flex;
     background: #333333;
     justify-content: space-around;
+    align-items: center;
 }
 .footerlogo{
     display: flex;
