@@ -1,5 +1,5 @@
 *{ 
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +15,13 @@
 }  */ 
     
 html{
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 body{
    font-family: ubuntu,Arial, Helvetica, sans-serif; 
    line-height: normal;
-   scroll-behavior: smooth;
+   /* scroll-behavior: smooth; */
    overflow-x: hidden;
    /* background-color: rgba(215, 224, 224, 0.575); */
 }
@@ -238,6 +239,19 @@ ul li:hover{
 .cardText:hover .btn2{
    top: 15px;
   
+}
+#link_topo{
+    display: none;
+    position: fixed;
+    width: 3em;
+    height: 3em;
+    right: 25px;
+    justify-content: center;
+    align-items: center;
+    bottom: 105px;
+    z-index: 9999;
+    background-color: red;
+    color: white;
 }
 
 
