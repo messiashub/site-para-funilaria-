@@ -65,6 +65,8 @@ btnClose.addEventListener('click',function(){
 });
 
 
+/* BOTÃO TOPO */
+
 window.onscroll = function(){
     scrollTopo();
 }
@@ -73,6 +75,7 @@ function scrollTopo(){
     let btn_topo = document.getElementById("link_topo");
     if(document.documentElement.scrollTop  > 50){
         btn_topo.style.display ="flex";
+       
 
     }else{
         btn_topo.style.display ="none";

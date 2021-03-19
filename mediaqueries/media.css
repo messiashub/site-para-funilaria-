@@ -112,6 +112,7 @@
     main footer{
         display: block;
     }
+    
 }
 @media screen and (min-width: 481px) and (max-width: 766px){
     /* HEADER */

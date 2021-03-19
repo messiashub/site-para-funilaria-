@@ -147,23 +147,23 @@ footer{
 .footerlogo2 span{
     color: coral;
 }
-/*
 
- */
+/*  BOTÃO TOPO */
 
-
-/* SERVIÇOS REALIZADOS */
-
-
-
-
-
-
-
-
-
-
-
+#link_topo{
+    display: none;
+    position: fixed;
+    width: 3em;
+    height: 3em;
+    right: 25px;
+    justify-content: center;
+    align-items: center;
+    bottom: 105px;
+    z-index: 9999;
+    background-image: var(--corPrincipal);
+    color: var(--corSecundaria);
+    /* transition: all  ease-in 1s; */
+}
 
 
 /* ANIMAÇÃO */
