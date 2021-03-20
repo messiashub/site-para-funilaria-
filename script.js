@@ -68,7 +68,10 @@ btnClose.addEventListener('click',function(){
 /* BOTÃO TOPO */
 
 window.onscroll = function(){
-    scrollTopo();
+    if(document.body.clientWidth > 480){
+         scrollTopo();
+    }
+   
 }
 
 function scrollTopo(){
@@ -85,4 +88,12 @@ function scrollTopo(){
 function backToTop(){
     document.documentElement.scrollTop= 0;
 }
+
+/* document.body.onresize = function(){
+    let btn_topo2 = document.getElementById("link_topo");
+    if(document.body.clientWidth < 480){
+        scrollTopo = null
+   
+    }
+} */
 
