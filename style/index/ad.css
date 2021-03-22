@@ -37,7 +37,7 @@ h5{
 .row{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+   /*  flex-wrap: wrap; */
 }
 /* MODAL */
 .modal1{    

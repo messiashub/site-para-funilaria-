@@ -89,11 +89,4 @@ function backToTop(){
     document.documentElement.scrollTop= 0;
 }
 
-/* document.body.onresize = function(){
-    let btn_topo2 = document.getElementById("link_topo");
-    if(document.body.clientWidth < 480){
-        scrollTopo = null
-   
-    }
-} */
 
