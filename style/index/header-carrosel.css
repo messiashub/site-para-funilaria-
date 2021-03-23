@@ -1,5 +1,5 @@
 *{ 
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
+    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);  */  
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -82,10 +82,10 @@ a:link{
     padding:20px 15px 20px 15px;
 }
 ul li{
-    border-left: 1px solid rgb(255, 187, 0);
+    border-left: 1px solid rgb(255 187 0 / 31%);
 }
 ul li:last-child{
-    border-right: 1px solid rgb(255, 166, 0);
+    border-right: 1px solid rgb(255 187 0 / 31%);
 }
 ul li:hover{
     background-color:rgb(204, 58, 39);
