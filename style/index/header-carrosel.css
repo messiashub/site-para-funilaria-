@@ -90,12 +90,20 @@ ul li:last-child{
 ul li:hover{
     background-color:rgb(204, 58, 39);
 }
-.headerTopo{
+
+/* .fixed-top{
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 99999;
+} */
+/* .headerTopo{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
     
-}
+}  */
 
 
 /* CARROSEL */

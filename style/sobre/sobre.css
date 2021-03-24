@@ -10,6 +10,11 @@
     --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
     --corSecundaria:#e2e24d;
 }
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body{
     font-family: ubuntu,Arial, Helvetica, sans-serif; 
     line-height: normal;
@@ -65,12 +70,12 @@ ul li:last-child{
 ul li:hover{
     background-color:rgb(204, 58, 39);
 }
-.headerTopo{
+/* .headerTopo{
     position: fixed;
     top: 0px;
     width: 100%;
     
-}
+} */
 .paginaSobre{
     margin-top: 50px;
 
