@@ -90,7 +90,6 @@ ul li:hover{
     padding: 10px;
 }
 .logo6 img{
-   
     width: 400px; 
     /* width: 350px; */
     padding-bottom: 10px;
@@ -102,13 +101,30 @@ ul li:hover{
     color: #767474;
 }
 
+/*MAPA*/
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* padding: 5px rgb(12,11,11);
+    border: 1px rgb(12, 11, 11); */
+}
+.mapa iframe{
+   padding: 5px;
+   border-radius: 5px;
+   
+
+}
+
+
 
 
 
 /* FOOTER */
 footer{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     background: #333333;
     justify-content: space-around;

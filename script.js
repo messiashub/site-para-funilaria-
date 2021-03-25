@@ -33,7 +33,10 @@ console.log(nav.classList)
 
 window.onscroll = () => {
     ficarNoTop();
-    scrollTopo()
+    if(document.body.clientWidth > 480){
+      scrollTopo()  
+    }
+    
 }
 console.log()
 
@@ -109,7 +112,7 @@ let btnClose = document.querySelector('#bt_close');
 let srcValor = "";
 
 
-/* for(let i = 0 ; i < imagens.length; i++){
+for(let i = 0 ; i < imagens.length; i++){
     imagens[i].addEventListener("click", function(){
 
         srcValor = imagens[i].getAttribute('src');
@@ -122,7 +125,7 @@ let srcValor = "";
 
 btnClose.addEventListener('click',function(){
     modal.classList.toggle('modal_ativo');
-}); */
+});
 
 
 

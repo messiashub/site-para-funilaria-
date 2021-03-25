@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px){
+
+    .logo6 img {
+        width: 300px;
+    }
+    footer{
+        display: block;
+    }
+}
