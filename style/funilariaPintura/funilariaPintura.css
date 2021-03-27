@@ -1,5 +1,5 @@
 *{ 
-    /* box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);  */  
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
@@ -21,6 +21,19 @@ body{
     overflow-x: hidden;
     /* background-color: rgba(215, 224, 224, 0.575); */
 }
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:link{
+    text-decoration: none;  
+}
+
+
+
+
 .header1_Sobre{
     margin-bottom: 0;
     font-size: 0.7em;
@@ -67,4 +80,30 @@ ul li:last-child{
 }
 ul li:hover{
     background-color:rgb(204, 58, 39);
+}
+
+.wrapper h5{
+    color: rgb(172, 90, 69);
+    font-size: 2em;
+}
+.funilaria p{
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 0.9px;
+}
+.btnfuni button{
+    margin-top: 15px;
+    outline: none;
+}
+.funilaria{
+    margin-top: 50px;
+}
+.container .btn{
+    width: 150px;
+    padding: 8px 10px 8px 10px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+    border: none;
+
+    background-image: var(--corPrincipal);
 }
