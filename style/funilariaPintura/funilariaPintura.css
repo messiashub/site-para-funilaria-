@@ -31,9 +31,6 @@ a:link{
     text-decoration: none;  
 }
 
-
-
-
 .header1_Sobre{
     margin-bottom: 0;
     font-size: 0.7em;
@@ -86,6 +83,12 @@ ul li:hover{
     color: rgb(172, 90, 69);
     font-size: 2em;
 }
+.funilaria{
+    margin-top: 50px;
+}
+.funilaria:last-child{
+    margin-bottom: 50px;
+}
 .funilaria p{
     color: gray;
     font-size: 0.8em;
@@ -95,9 +98,7 @@ ul li:hover{
     margin-top: 15px;
     outline: none;
 }
-.funilaria{
-    margin-top: 50px;
-}
+
 .container .btn{
     width: 150px;
     padding: 8px 10px 8px 10px;
@@ -106,4 +107,37 @@ ul li:hover{
     border: none;
 
     background-image: var(--corPrincipal);
+}
+
+footer{
+    display: flex;
+    /* position: absolute; */
+    width: 100%;
+    background: #333333;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.footerlogo p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo span{
+    color: var(--corSecundaria);
+}
+.footerlogo2{
+    padding: 25px;
+}
+.footerlogo2 p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo2 span{
+    color: coral;
 }
