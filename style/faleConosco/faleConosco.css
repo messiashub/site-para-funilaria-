@@ -76,3 +76,19 @@ ul li:last-child{
 ul li:hover{
     background-color:rgb(204, 58, 39);
 }
+
+.faleConosco{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+   /*  text-align: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.texto h5{
+    margin-bottom: 50px;
+   /*  display: flex; */
+    font-size: 2em;
+    color: rgb(172, 90, 69);;
+}
