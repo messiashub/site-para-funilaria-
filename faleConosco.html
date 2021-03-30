@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/faleConosco/faleConosco.css">
+  <link rel="stylesheet" href="./mediaqueries/faleConosco.css">
 </head>
 
 <body>
@@ -66,22 +67,41 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-6">
-          <h4>FALE CONOSCO:</h4>
-          <p><i class="fa fa-home" aria-hidden="true"></i> Rua:Alziro Zarur n°1000 - Parque Savoy City<br> &nbsp; &nbsp; CEP:00000 zn - leste - SP </p>
-
-          <h6>&nbsp;&nbsp;&nbsp; HORÁRIO DE FUNCIONAMENTO</h6>
+        <div class="col-sm-6 col-12 endereco">
+          <h4>ENDEREÇO:</h4>
+          <p><i class="fa fa-home" aria-hidden="true"></i> Rua:Alziro Zarur n°1000 - Parque Savoy City<br> &nbsp; &nbsp;
+            CEP:00000 zn - leste - SP </p>
+          <span>&nbsp;&nbsp;&nbsp; HORÁRIO DE FUNCIONAMENTO</span>
           <p>&nbsp;&nbsp;&nbsp; De segunda a sábado das 8:00 às 18:00 </p>
-
-
         </div>
-        <div class="col-6">
-          <h4>TELEFONES:</h4>
-          <p><i class="fa fa-phone" aria-hidden="true"></i></p>
-          
 
+        <div class="col-sm-6 col-12 tel">
+          <h4>TELEFONES:</h4>
+          <p><i class="fa fa-phone" aria-hidden="true">&nbsp;
+            </i><a href="tel:+55119546405581">(11)95640-5581</a>
+          </p>
+          <p><i class="fa fa-whatsapp" aria-hidden="true">&nbsp;
+            </i><a href="tel:+55119546405581">(11)95640-5581</a>
+          </p>
+          <p><i class="fa fa-whatsapp" aria-hidden="true">&nbsp;
+            </i><a href="tel:+55119546405581">(11)95640-5581</a>
+          </p>
         </div>
       </div>
+    </div>
+  </section>
+  <section>
+    <div class="container form">
+       <h4>FALE CONOSCO:</h4>
+       <p>Preencha o formulário e faça sua solicitação. Assim que recebemos sua mensagem entraremos em contato com você.</p>
+       <form action="" method="POST">
+
+        <input type="text" name="nome" id="name" placeholder="Nome:" required>
+        <input type="email" name="email" id="email" placeholder="E-mail:" required>
+        <input type="number" name="celular" id="celular" placeholder="Celular/Whatssap:" required>
+        <textarea name="texto" id="texto" placeholder="Mensagem:" cols="110" rows="10" style="display: block;" required></textarea>
+        <button type="submit" value="enviar">ENVIAR</button>
+       </form>
     </div>
   </section>
 

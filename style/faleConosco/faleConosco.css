@@ -1,10 +1,13 @@
 *{ 
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349);   
+   /*  box-shadow: inset 0px 0px 0px 1px rgba(0, 255, 64, 0.349); */   
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
     /* text-decoration: none; */
     
+}
+h5,h4{
+    color:rgb(172, 90, 69) ;
 }
 :root{
     --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
@@ -90,5 +93,36 @@ ul li:hover{
     margin-bottom: 50px;
    /*  display: flex; */
     font-size: 2em;
-    color: rgb(172, 90, 69);;
+    /* color: rgb(172, 90, 69); */
+}
+.endereco h4{
+   /*  color: rgb(172, 90, 69); */
+    margin-bottom: 20px;
+}
+.endereco p{
+    color: gray;
+    font-size: 0.8em;
+    letter-spacing: 0.9px;
+}
+.endereco span{
+    color: rgb(119, 116, 116);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.tel h4{
+   /*  color:rgb(172, 90, 69); */
+    margin-bottom: 20px;
+}
+.tel p{
+    margin-bottom: 7px;
+}
+.tel i{
+    color: gray;
+}
+.tel a{
+    color:rgb(172, 90, 69);
+}
+
+.form{
+    margin-top: 50px;
 }
