@@ -125,4 +125,75 @@ ul li:hover{
 
 .form{
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form p{
+    color: rgb(119, 116, 116) ;
+}
+.form input{
+    width: 250px;
+    margin-right: 20px;
+    padding: 5px;
+    border-color:  rgba(255, 255, 255, 0);
+    background-color: rgba(184, 180, 180, 0.185);
+}
+.form input:focus{
+    outline: none;
+}
+#texto{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-color:  rgba(255, 255, 255, 0);
+    background-color: rgba(184, 180, 180, 0.185);
+
+}
+#texto:focus{
+    outline: none;
+}
+
+button{
+    width: 100px;
+    padding: 8px 10px 8px 10px;
+    font-size: 0.8em;
+    color: white;
+    letter-spacing: 1.5px;
+    border: none;
+    background-color: rgba(35, 160, 218, 0.856);
+    border-radius: 5px;
+   /*  background-image: var(--corPrincipal); */
+}
+
+footer{
+    display: flex;
+    /* position: absolute; */
+    width: 100%;
+    background: #333333;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+.footerlogo{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+.footerlogo p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo span{
+    color: var(--corSecundaria);
+}
+.footerlogo2{
+    padding: 25px;
+}
+.footerlogo2 p{
+    margin-bottom: 5px;
+    color: rgb(155, 145, 145);
+}
+.footerlogo2 span{
+    color: coral;
 }
