@@ -86,11 +86,14 @@
      /* SOBRE */
     .wrapper{
        justify-content: center;
-       /*  j margin-bottom: 25px; */
+       margin-bottom: 1 5px; 
        
     }
     .logo6 img{
         width: 300px;
+    }
+    .sobre{
+        margin-top: 0px;
     }
     .sobre p{
         text-align: justify;
@@ -109,9 +112,19 @@
     .wrapper2 p{
         font-size: 1.8em;
     }
+    
     main footer{
         display: block;
     }
+    main footer .footerlogo{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    main footer .footerlogo2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
     
 }
 @media screen and (min-width: 481px) and (max-width: 766px){
@@ -206,12 +219,17 @@
     .cardText:hover .btn2{
         top: none;
     }
+    
     /* SOBRE */
     .wrapper{
         justify-content: center;
             /*  j margin-bottom: 25px; */
             
-        }
+    }
+    .sobre{
+        margin-top: 0;
+    }
+
     .sobre p{
         text-align: justify;
     }
