@@ -1,9 +1,36 @@
 @media screen and (max-width: 480px){
+    .paginaSobre{
+        margin-top: 25px;
+        /* margin-bottom: 25px; */
+    }
+    .wrapper{
+        margin-top: 0;
+         margin-bottom: 5px;
+    }
+    .wrapper p{
+        margin-top: 5px;
+       
+        text-align:justify;
+    }
 
+    
     .logo6 img {
         width: 300px;
     }
+    /* .container .mapa{
+        margin-top: 5px;
+    } */
+
     footer{
         display: block;
     }
+    footer .footerlogo{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    footer .footerlogo2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    
 }
