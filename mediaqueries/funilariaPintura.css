@@ -8,6 +8,10 @@
     /* .pos2{
         position: absolute;
     } */
+    .funilaria:first-child{
+        margin-top: 20px;
+    }
+    
 
     .pos1{
         order: 2;
@@ -22,9 +26,20 @@
     footer{
         display: block;
     }
+    footer .footerlogo{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    footer .footerlogo2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 990px){
+     .funilaria:first-child{
+        margin-top: 20px;
+    }
     .pos1{
         order: 2;
     }

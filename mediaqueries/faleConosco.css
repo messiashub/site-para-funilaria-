@@ -1,3 +1,23 @@
 @media screen and (max-width: 480px){
-    
+    .form input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    footer{
+        display: block;
+    }
+    footer .footerlogo{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    footer .footerlogo2{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 990px){
+     .form input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }

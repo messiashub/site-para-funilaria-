@@ -3,8 +3,7 @@
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
-    /* text-decoration: none; */
-    
+
 }
 :root{
     --corPrincipal:linear-gradient(to right, #7a1b12 0%, #df5432fb 100%);
@@ -17,9 +16,7 @@ html{
 body{
     font-family: ubuntu,Arial, Helvetica, sans-serif; 
     line-height: normal;
-    /* scroll-behavior: smooth; */
     overflow-x: hidden;
-    /* background-color: rgba(215, 224, 224, 0.575); */
 }
 a{
     color: white;
@@ -111,7 +108,6 @@ ul li:hover{
 
 footer{
     display: flex;
-    /* position: absolute; */
     width: 100%;
     background: #333333;
     justify-content: space-around;
